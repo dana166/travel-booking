@@ -1,0 +1,236 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif; /* الخط العربي */
+    background-color: #f7f7f7;
+    color: #333; /* يمكنك تغييره إلى اللون الأسود الغامق #000 */
+    line-height: 1.6;
+    text-align: center; /* جعل جميع النصوص في المنتصف */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 80px;
+    border-bottom: 4px solid #77b300;
+    text-align: center; /* جعل النصوص في المنتصف */
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77b300;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #77b300;
+    transform: scale(1.05);
+}
+
+/* Hero section */
+.hero-section {
+    background: #333 url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero-section .btn {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Form styling */
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #77b300;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #333;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background: #f4f4f4;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer .social a:hover {
+    color: #77b300;
+}
+
+/* Centering headings and enhancing their style */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* جعل العناوين في المنتصف */
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    color: #000; /* جعل العناوين باللون الأسود الغامق */
+    margin-bottom: 20px; /* إضافة مساحة أسفل العناوين */
+}
+
+h1 {
+    font-size: 36px;
+    color: #000; /* جعل اللون أغمق وأكثر جذبًا */
+}
+
+h2 {
+    font-size: 30px;
+    color: #000;
+}
+
+h3 {
+    font-size: 26px;
+    color: #000;
+}
+
+h4, h5, h6 {
+    font-size: 20px;
+    color: #000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.btn {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+}

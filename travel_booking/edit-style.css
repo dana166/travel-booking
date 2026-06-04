@@ -1,0 +1,118 @@
+/* التصميم العام */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.btn-back {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.message.error {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.form-edit-booking {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-edit-booking label {
+    font-size: 18px;
+    color: #333;
+}
+
+.form-edit-booking input,
+.form-edit-booking select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-edit-booking button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-edit-booking button:hover {
+    background-color: #218838;
+}
+
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-form input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.search-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}

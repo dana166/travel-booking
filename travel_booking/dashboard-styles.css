@@ -1,0 +1,157 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* الرأس */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex; /* استخدام Flexbox لتوزيع العناصر */
+    justify-content: space-between; /* توزيع العناصر على الطرفين */
+    align-items: center; /* محاذاة العناصر عموديًا */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.btn-logout {
+    color: #fff;
+    background: #dc3545; /* اللون الأحمر */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+
+.btn-logout:hover {
+    background: #c82333;
+    cursor: pointer;
+}
+
+/* الرسائل */
+.message {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.message.success {
+    background: #28a745;
+    color: #fff;
+}
+
+.message.error {
+    background: #dc3545;
+    color: #fff;
+}
+
+/* الجداول */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background: #e9ecef;
+}
+
+/* الأزرار */
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    transition: background 0.3s ease; /* تأثير الانتقال */
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* زر الحذف */
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
+
+/* زر التعديل */
+.btn-primary {
+    background: #007bff;
+    margin-left: 10px;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* التنسيق العام للأقسام */
+.mt-5 {
+    margin-top: 30px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #77b300;
+}
