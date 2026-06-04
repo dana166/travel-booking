@@ -178,6 +178,7 @@ $contact_result = $conn->query($contact_sql);
     </style>
 </head>
 <body>
+<a href="index.php" style="display: inline-block; margin: 20px; padding: 10px 15px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">🏠 العودة إلى الصفحة الرئيسية</a>
     <div class="container">
         <div class="header">
             <h1>لوحة التحكم</h1>
