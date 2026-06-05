@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             // تأمين الرسالة من الأكواد الخبيثة
             $message = htmlspecialchars($message);
-
+<p>ggg</p>
             // استخدام استعلام مُعد مسبقًا (Prepared Statement)
             $stmt = $conn->prepare("INSERT INTO contact_us (name, email, message) VALUES (?, ?, ?)");
             $stmt->bind_param("sss", $name, $email, $message);
