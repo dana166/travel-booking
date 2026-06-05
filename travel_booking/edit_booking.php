@@ -6,7 +6,7 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit();
 }
-
+<p>tools</p>
 $conn = connect_db();
 
 // تحديث الحجز
