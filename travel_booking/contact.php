@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = trim($_POST['message']);
 
     $conn = connect_db();
-
+<p>hhh</p>
     // التحقق من وجود القيم المطلوبة
     if (!empty($name) && !empty($email) && !empty($message)) {
         // التحقق من صحة البريد الإلكتروني
